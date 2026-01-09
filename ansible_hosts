@@ -1,0 +1,9 @@
+[dev]
+13.220.52.127
+44.195.24.44
+44.202.233.145
+
+[dev:vars]
+ansible_user=ec2-user
+an=~/ansisible_ssh_private_key_fileble/default-ec2.pem
+ansible_ssh_common_args='-o StrictHostKeyChecking=no'
